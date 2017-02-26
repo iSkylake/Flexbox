@@ -50,8 +50,8 @@ h2, h3{
 }
 
 .main-column{
-	flex: 3;
-	order: 2;
+	flex: 3; /* Proportion */
+	order: 2; /* Display order */
 }
 
 .sidebar-one{
@@ -74,8 +74,8 @@ h2, h3{
 .call-out{
 	padding: 20px;
 	margin-bottom: 20px;
-	flex-basis: 30%;
-	box-sizing: border-box;
+	flex-basis: 30%; /* Space taken */
+	box-sizing: border-box; /* Children adjust to parent size */
 }
 
 @media (min-width: 900px){
@@ -86,7 +86,7 @@ h2, h3{
 	.call-outs-container{
 		display: flex;
 		align-items: stretch;
-		justify-content: space-between;
+		justify-content: space-between; /* Add space between box */
 	}
 }
 
@@ -102,7 +102,7 @@ h2, h3{
 	background-color: #FFF;
 	padding: 30px 0;
 	display: flex;
-	align-items: center;
+	align-items: center; 
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
